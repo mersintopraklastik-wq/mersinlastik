@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goodyear Lastikleri | Mersin Toprak Lastik</title>
+<meta name="description" content="Mersin Toprak Lastik'te Goodyear lastik modelleri. Mevsime ve araç tipine göre filtreleyin, WhatsApp üzerinden fiyat ve stok bilgisi alın.">
+<meta name="keywords" content="Mersin lastik, Goodyear Mersin, Mersin oto lastik, Mersin Toprak Lastik">
+<link rel="canonical" href="https://mersintopraklastik.github.io/lastikler.html">
+<meta name="theme-color" content="#0A1F3D">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a href="#icerik" class="skip-link">İçeriğe geç</a>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0A1F3D" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/></svg></span>
+      <span class="brand-text"><strong>MERSİN TOPRAK LASTİK</strong><span>Goodyear Yetkili Bayii</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Ana menü">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="lastikler.html">Lastikler</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="kampanyalar.html">Kampanyalar</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-call" data-call href="tel:+905333668685">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"/></svg>
+        0533 366 86 85
+      </a>
+      <button class="hamburger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobile-panel"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-panel" id="mobile-panel">
+  <a href="index.html">Ana Sayfa</a>
+  <a href="lastikler.html">Lastikler</a>
+  <a href="hizmetler.html">Hizmetler</a>
+  <a href="kampanyalar.html">Kampanyalar</a>
+  <a href="hakkimizda.html">Hakkımızda</a>
+  <a href="galeri.html">Galeri</a>
+  <a href="iletisim.html">İletişim</a>
+  <div class="mobile-actions">
+    <a class="btn btn-primary btn-block" data-call href="tel:+905333668685">Hemen Ara — 0533 366 86 85</a>
+    <a class="btn btn-whatsapp btn-block" data-wa="Merhaba, Goodyear lastikleri hakkında bilgi almak istiyorum." href="#">WhatsApp'tan Yazın</a>
+  </div>
+</div>
+
+<main id="icerik">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Ana Sayfa</a><span>/</span><span>Lastikler</span></div>
+      <h1>Goodyear Lastikleri</h1>
+      <p>Aracınıza uygun Goodyear lastik modellerini inceleyin. Fiyat ve stok bilgisi için WhatsApp üzerinden bize ulaşın.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar" data-reveal>
+        <div class="field">
+          <label for="filter-season">Mevsim</label>
+          <select id="filter-season">
+            <option value="">Tümü</option>
+            <option value="yaz">Yaz</option>
+            <option value="kış">Kış</option>
+            <option value="4 mevsim">4 Mevsim</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filter-vehicle">Araç Tipi</label>
+          <select id="filter-vehicle">
+            <option value="">Tümü</option>
+            <option value="binek">Binek</option>
+            <option value="suv">SUV</option>
+            <option value="ticari">Ticari</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filter-size">Ebat Ara</label>
+          <input type="text" id="filter-size" placeholder="ör. 205/55 R16">
+        </div>
+        <button class="btn btn-navy" id="filter-reset" type="button">Filtreyi Temizle</button>
+      </div>
+
+      <div class="grid grid-3" id="product-catalog" data-reveal></div>
+    </div>
+  </section>
+
+  <section class="section section--gray">
+    <div class="container">
+      <div class="promo-banner" data-reveal>
+        <div>
+          <h3>Aracınıza Uygun Lastiği Bulamadınız mı?</h3>
+          <p>Aracınızın marka, model ve yılını bize iletin, size en uygun Goodyear lastiğini önerelim.</p>
+        </div>
+        <div class="promo-actions">
+          <a class="btn btn-primary" href="index.html#lastik-bulucu">Aracıma Uygun Lastiği Bul</a>
+          <a class="btn btn-outline" data-wa="Merhaba, aracım için uygun Goodyear lastik ebatını öğrenmek istiyorum." href="#">WhatsApp'tan Sor</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0A1F3D" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/></svg></span>
+        <span class="brand-text"><strong style="color:#fff;">MERSİN TOPRAK LASTİK</strong><span>Goodyear Yetkili Bayii</span></span>
+      </div>
+      <p>Mersin'de lastik ve oto servis hizmetleri sunan Mersin Toprak Lastik, Goodyear Yetkili Bayii olarak kaliteli ürün ve profesyonel hizmet anlayışıyla müşterilerine hizmet vermektedir.</p>
+      <div class="footer-social">
+        <a data-instagram href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a data-wa="Merhaba, Mersin Toprak Lastik hakkında bilgi almak istiyorum." href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Menü</h4>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="lastikler.html">Lastikler</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="kampanyalar.html">Kampanyalar</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="iletisim.html">İletişim</a>
+    </div>
+    <div class="footer-col">
+      <h4>İletişim</h4>
+      <a data-call href="tel:+905333668685">0533 366 86 85</a>
+      <a data-wa="Merhaba, Mersin Toprak Lastik hakkında bilgi almak istiyorum." href="#">0542 138 72 42 (WhatsApp)</a>
+      <a data-instagram href="#">@mersintopraklastik</a>
+    </div>
+    <div class="footer-col">
+      <h4>Adres</h4>
+      <span>Barış, Gazi Mustafa Kemal Blv. No:209/A, 33010 Akdeniz/Mersin</span>
+      <a data-maps href="#" class="mt-8" style="display:inline-block;">Yol Tarifi Al →</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="footer-year">2026</span> Mersin Toprak Lastik. Tüm hakları saklıdır.</span>
+    <span>Goodyear Yetkili Bayii — Mersin</span>
+  </div>
+</footer>
+
+<nav class="mobile-bar" aria-label="Hızlı iletişim">
+  <div class="mobile-bar-inner">
+    <a class="mb-call" data-call href="tel:+905333668685">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"/></svg>
+      Ara
+    </a>
+    <a class="mb-whatsapp" data-wa="Merhaba, Goodyear lastikleri hakkında bilgi almak istiyorum." href="#">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Z"/></svg>
+      WhatsApp
+    </a>
+    <a class="mb-route" data-maps href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      Yol Tarifi
+    </a>
+  </div>
+</nav>
+
+<script src="./js/main.js"></script>
+<script>
+  /* Lastikler sayfasına özel: mevsim / araç tipi / ebat filtreleme.
+     Gerçek ürün verisi /data/products.json içine eklendiğinde otomatik çalışır. */
+  document.addEventListener("DOMContentLoaded", async () => {
+    const catalog = document.getElementById("product-catalog");
+    const seasonSel = document.getElementById("filter-season");
+    const vehicleSel = document.getElementById("filter-vehicle");
+    const sizeInput = document.getElementById("filter-size");
+    const resetBtn = document.getElementById("filter-reset");
+
+    const allProducts = await window.MTL.fetchProducts();
+
+    function renderList(products) {
+      if (products.length === 0) {
+        catalog.innerHTML = `<div class="filter-empty-state">${
+          allProducts.length === 0
+            ? "Ürün kataloğu şu anda güncelleniyor. Güncel Goodyear lastik modelleri için WhatsApp üzerinden bize ulaşabilirsiniz."
+            : "Seçtiğiniz filtrelere uygun ürün bulunamadı. Filtreyi temizleyip tekrar deneyin veya WhatsApp'tan sorun."
+        }</div>`;
+        return;
+      }
+      catalog.innerHTML = products.map((p) => window.MTL.productCardHTML(p)).join("");
+    }
+
+    function applyFilters() {
+      const season = seasonSel.value.toLowerCase();
+      const vehicle = vehicleSel.value.toLowerCase();
+      const size = sizeInput.value.trim().toLowerCase();
+
+      const filtered = allProducts.filter((p) => {
+        const matchSeason = !season || (p.season || "").toLowerCase().includes(season);
+        const matchVehicle = !vehicle || (p.vehicleType || "").toLowerCase().includes(vehicle);
+        const matchSize = !size || (p.size || "").toLowerCase().includes(size);
+        return matchSeason && matchVehicle && matchSize;
+      });
+      renderList(filtered);
+    }
+
+    seasonSel.addEventListener("change", applyFilters);
+    vehicleSel.addEventListener("change", applyFilters);
+    sizeInput.addEventListener("input", applyFilters);
+    resetBtn.addEventListener("click", () => {
+      seasonSel.value = "";
+      vehicleSel.value = "";
+      sizeInput.value = "";
+      applyFilters();
+    });
+
+    renderList(allProducts);
+  });
+</script>
+</body>
+</html>
